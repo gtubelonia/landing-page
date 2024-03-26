@@ -20,6 +20,7 @@ body {
     padding-right: 15vw;
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 100vw;
 }
 
 button {
@@ -29,7 +30,7 @@ button {
     height: 25px;
     border-radius: 7px;
     border: 1px solid #3882F6;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
 }
 
 .section1 {
@@ -47,18 +48,13 @@ button {
 
 #headerlogo {
     color: #F9FAF8;
+    height: 50px;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 5px;
-}
-
-.hero {
-    color: #F9FAF8;
-    font-weight: bolder;
-    font-size: 48px;
 }
 
 .main {
@@ -70,14 +66,20 @@ ul {
     display: flex;
     flex-direction: column;
     text-wrap: wrap;
-    width: 100vw;
+    max-width: 50vw;
     gap: 0;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
 }
 
 .right1 {
     background-color: grey;
-    height: auto;
-    width: 100vw;
+    max-width: auto;
+    max-height: 500px;
 }
 
 .section2 {
@@ -86,12 +88,12 @@ ul {
     align-items: center;
 }
 
-.container2{
+.container2 {
     display: flex;
     gap: 25px;
 }
 
-.imgandtxt{
+.imgandtxt {
     height: 200px;
     width: 200px;
     text-wrap: wrap;
@@ -99,25 +101,37 @@ ul {
     flex-direction: column;
 }
 
-.img2{
-
+.img2 {
     align-items: center;
     border: 5px #3882F6;
     max-height: 200px;
     max-width: 200px;
 }
 
-.section3{
+.section3 {
     background-color: #E5E7EB;
+    flex-direction: column;
+
 }
 
-.p3{
+.p3 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.quote {
+    align-self: flex-end;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.p3 {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
 }
 
-.section4{
+.section4 {
     display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -131,22 +145,23 @@ ul {
     border-radius: 7px;
 }
 
-.call{
+.call {
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 24px;
 }
-.secondcall{
+
+.secondcall {
     font-size: 12px;
     font-weight: lighter;
     padding: 0;
 }
 
-.button4{
-border-color: #F9FAF8;
+.button4 {
+    border-color: #F9FAF8;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;

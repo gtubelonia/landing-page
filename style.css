@@ -94,8 +94,8 @@ ul {
 }
 
 .imgandtxt {
-    height: 200px;
-    width: 200px;
+    height: 250opx;
+    width: 250px;
     text-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -104,8 +104,8 @@ ul {
 .img2 {
     align-items: center;
     border: 5px #3882F6;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
 }
 
 .section3 {
